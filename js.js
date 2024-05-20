@@ -55,7 +55,7 @@ $(document).ready(function () {
         });
     }
 
-    
+
     var dataTable = $('#hostelData').DataTable();
 
     // Click event for add button
@@ -119,7 +119,7 @@ $(document).ready(function () {
         iti.setNumber($(this).attr('data-phoneNumber'));
         $('#email').val($(this).attr('data-email'));
 
-       
+
         $('#dataForm').off('submit').submit(function (event) {
             event.preventDefault();
 
